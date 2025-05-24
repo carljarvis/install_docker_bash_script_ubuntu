@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
 apt-get update
-apt-get install docker-ce
-apt-get install docker-ce-cli
+apt-get install docker-ce docker-ce-cli
 apt-get update
 apt-get install ca-certificates curl
 install -m 0755 -d /etc/apt/keyrings
